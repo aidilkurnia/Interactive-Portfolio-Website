@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "mockup.css">
+        <link rel = "stylesheet" href = "bootstrap.css">
+        <script type="text/javascript">
+        function validate(){
+            if ( document.form.name.value == "")
+                {
+                    alert("KOLOM NAMA WAJIB DIISI!!!");
+                    document.forms.name.focus();
+                    return false;
+                }
+            if ( document.form.telepon.value == "")
+                {
+                    alert("KOLOM TELEPON WAJIB DIISI!!!");
+                    document.forms.telepon.focus();
+                    return false;
+                }
+            if ( document.form.email.value == "")
+                {
+                    alert("KOLOM EMAIL WAJIB DIISI!!!");
+                    document.forms.email.focus();
+                    return false;
+                }
+            if ( document.form.pesan.value == "")
+                {
+                    alert("KOLOM PESAN WAJIB DIISI!!!");
+                    document.forms.pesan.focus();
+                    return false;
+                }
+        }
+        </script>
+    </head>
+    <body div class="grad">
+        <div class="grid">
+        <div class="row">
+            <div class="col-2">
+            <img src="pz.png"; alt="LogoWeb"; class="bg">
+            </div>
+            <div class="col-10">
+                <h1 class="nospace">AIDIL KURNIA</h1>
+                <h2 class="nospace">10151004</h2>
+                <h2 class="nospace"> bit.ly/pipoz</h2>
+            </div>
+        </div>
+        <hr style="#F39C12">
+        <div class="row">
+            <div class="col-12">
+            <img src="pz5.png"; alt="LogoWeb"; class="bg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1 style="margin-top: 0px; padding-top: 0px;">SKILLS</h1>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-4">
+            <img src="game.png"; alt="main game"; class="hg">
+            <p>MAIN GAME</p>
+        </div>
+        <div class="col-4">
+            <img src="working.png"; alt="nugas"; class="hg">
+            <p>NUGAS</p>
+        </div>
+        <div class="col-4">
+            <img src="Bed%20Icon.png"; alt="TIDUR"; class="hg">
+            <p>LARUT</p>
+            
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="panel-heading">
+                <p>Form</p>
+                </div>
+                <div class="panel-body">
+                <div class="form group">
+                    <form name="form" action="mailto:aidilkurniaa@gmail.com" method="post" enctype="text/plain" onsubmit="return(validate());"> 
+                <input name="name" type="nama" class="form-control" placeholder="NAMA">
+                    <br>
+                <input name="telepon" type="telepon" class="form-control" placeholder="TELEPON">
+                    <br>
+                <input name="email" type="email" class="form-control" placeholder="EMAIL">
+                    <br>
+                <input name="pesan" type="pesan" class="form-control" placeholder="PESAN">
+                    <br> 
+                <input type="submit" class="btn btn-success" name="SUBMIT" value="submit">                        
+                    </form>
+                </div>
+                </div> 
+            </div>
+            </div>
+        </div> 
+        </div>   
+    </body>
+</html>
